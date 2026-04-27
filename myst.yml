@@ -14,10 +14,14 @@ project:
     - Institute of Environmental Science and Geography, University of Potsdam, Potsdam, Germany
     roles:
     - Conceptualization
+    - Data curation
     - Formal analysis
     - Investigation
     - Methodology
+    - Project administration
     - Software
+    - Resources
+    - Validation
     - Visualization
     - Writing - original draft
     - Writing - review & editing
@@ -28,10 +32,14 @@ project:
     - Alliance Bioversity-CIAT
     roles:
     - Conceptualization
+    - Data curation
     - Formal analysis
     - Investigation
     - Methodology
+    - Project administration
     - Software
+    - Resources
+    - Validation
     - Visualization
     - Writing - original draft
     - Writing - review & editing
@@ -42,10 +50,14 @@ project:
     - Institute for Biology, Humboldt University of Berlin, Germany
     roles:
     - Conceptualization
+    - Data curation
     - Formal analysis
     - Investigation
     - Methodology
+    - Project administration
     - Software
+    - Resources
+    - Validation
     - Visualization
     - Writing - original draft
     - Writing - review & editing

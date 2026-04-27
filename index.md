@@ -20,8 +20,11 @@ To identify heatwaves and flash droughts, we used high-resolution gridded long-t
 ## Methodology and Tools
 First, heatwaves and flash droughts were identified separately at a comparable timescale. For heatwave detection, both daily maximum and minimum temperatures were smoothed with a kernel of the size of five days. Heatwaves were then detected for three or more consecutive days with the smoothed maximum and minimum temperatures above the corresponding 90th percentile of the reference period (1981–2010, @Fu2022). 
 
-
-```{list-table} Description of climate products used in the analysis 
+```{raw} typst
+#pagebreak()
+#show figure.where(kind: "table"): set figure.caption(position: top)
+```
+```{list-table} Description of climate products used in the analysis
 :name: tbl-my-table
 :header-rows: 1
 :widths: 30 35 35
