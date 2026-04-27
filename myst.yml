@@ -22,10 +22,10 @@ project:
     - Writing - original draft
     - Writing - review & editing
 
-  - name: Wu, J.
-    orcid: https://orcid.org/0000-0002-6266-7666
+  - name: Singh, M.
+    orcid: https://orcid.org/0000-0001-5364-2056
     affiliations:
-    - Institute for Biology, Humboldt University of Berlin, Germany
+    - Alliance Bioversity-CIAT
     roles:
     - Conceptualization
     - Formal analysis
@@ -36,10 +36,10 @@ project:
     - Writing - original draft
     - Writing - review & editing
 
-  - name: Singh, M.
-    orcid: https://orcid.org/0000-0001-5364-2056
+  - name: Wu, J.
+    orcid: https://orcid.org/0000-0002-6266-7666
     affiliations:
-    - Alliance Bioversity-CIAT
+    - Institute for Biology, Humboldt University of Berlin, Germany
     roles:
     - Conceptualization
     - Formal analysis

@@ -10,6 +10,7 @@ acknowledgments: |
 Compound climate events are defined as combinations of multiple drivers and/or hazards that jointly contribute to societal or environmental risk (@Zscheischler2018). The evolution of droughts and heatwaves is significantly influenced by positive land–atmosphere feedbacks between these extreme events (@Marengo2025; @Miralles2019; @Rouges2023), and should be analyzed as compound events rather than individual events (@Zscheischler2017). A core challenge is to analyze both hazards on comparable timescales, since heatwaves typically last for several days to a few weeks (@Miralles2019), whereas classical droughts develop at the scale of months (@Stagge2015), making it hard to understand the combined effects of co-occurring hazards. Here, we consider a special form of drought characterized by rapid onset and short duration referred to as flash drought (@Oikonomou2020; @Lisonbee2021). In Peru, only a handful of reports on either heatwaves or droughts are available (@CastilloGlvez2018; @Quispe2015, @Vega-Jacome2015; @Zubieta2021; @AranaRuedas2023), and none of them has analyzed droughts at a comparable timescale as heatwaves. Regarding compound drought and heatwave events, only particular past events were analyzed. Here, we aim to characterize the spatiotemporal pattern of the compound flash drought and heatwave (CFDHW) events during the climatological period from 1981 to 2015 in Peru. 
 
 # Material and methodology 
+
 ## Study area
 Peru, located in the central and western region of South America, extends from 0°02' N to 18°21' S in latitude and 81°19' W to 68°39' W in longitude. From east to west, the Andes divide the territory into a desert coastal region to the west and the Amazon basin to the east, with elevations ranging from sea level to 6,768 m at Huascarán glacier. The complex topography of Andes induces strong hydroclimatic variability across multiple spatial and temporal scales (@Arias2021; @Espinoza2015; @LavadoCasimiro2012). Due to its complex hydroclimatology, precipitation distribution varies significantly both latitudinally (north-south) and longitudinally (east-west), shaping diverse climatic conditions. These range from the arid and warm coastal region to the temperate, frigid, and polar inter-Andean valleys, and the warm and humid Amazon rainforest.
 
@@ -18,6 +19,7 @@ To identify heatwaves and flash droughts, we used high-resolution gridded long-t
 
 ## Methodology and Tools
 First, heatwaves and flash droughts were identified separately at a comparable timescale. For heatwave detection, both daily maximum and minimum temperatures were smoothed with a kernel of the size of five days. Heatwaves were then detected for three or more consecutive days with the smoothed maximum and minimum temperatures above the corresponding 90th percentile of the reference period (1981–2010, @Fu2022). 
+
 
 ```{list-table} Description of climate products used in the analysis 
 :name: tbl-my-table
@@ -64,7 +66,7 @@ To identify flash droughts, the standardized precipitation evapotranspiration in
 
 The CFDHW events were defined as the co-occurrence of heatwaves and flash droughts (@figure-main a). Heatwaves, flash droughts, and compound events were all characterized in terms of the number of events, annual frequency, and mean duration. Additionally, we quantify the severity of each extreme event as follows:
 
-$$\mathit{Severity}_{HW} = \sum_{d} \left( T_{\max,d} - T_{90p} \right)$$
+$$\mathrm{Severity}_{HW} = \sum_{d} \left( T_{\max,d} - T_{90p} \right)$$
 
 $$\mathrm{Severity}_{FD} = \sum_{d} \left( \mathrm{SPEI}_{\mathrm{pentad},d} - \mathrm{SPEI}_{\mathrm{pentad},40p} \right)$$
 
