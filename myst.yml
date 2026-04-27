@@ -8,10 +8,10 @@ project:
   # doi: 10.5281/zenodo.XXXXXXX
   # date: YYYY-MM-DD
   authors:
-  - name: Doe, J.
-    orcid: 0000-0000-0000-0001
+  - name: Vega-Jacome, F.
+    orcid: https://orcid.org/0000-0003-4580-9324
     affiliations:
-    - Department of Geosciences and Natural Resource Management, University of Copenhagen, Denmark
+    - Institute of Environmental Science and Geography, University of Potsdam, Potsdam, Germany
     roles:
     - Conceptualization
     - Formal analysis
@@ -21,47 +21,47 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
-  - name: Sharma, A.J.
-    orcid: 0000-0000-0000-0002
+
+  - name: Wu, J.
+    orcid: https://orcid.org/0000-0002-6266-7666
     affiliations:
-    - Department of Earth Sciences, Indian Institute of Technology Bombay, Mumbai, India
+    - Institute for Biology, Humboldt University of Berlin, Germany
     roles:
+    - Conceptualization
     - Formal analysis
     - Investigation
+    - Methodology
+    - Software
+    - Visualization
     - Writing - original draft
     - Writing - review & editing
-  - name: Tanaka, S.
+
+  - name: Singh, M.
+    orcid: https://orcid.org/0000-0001-5364-2056
     affiliations:
-    - College of Urban and Environmental Sciences, Peking University, Beijing, China
+    - Alliance Bioversity-CIAT
     roles:
+    - Conceptualization
     - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Visualization
     - Writing - original draft
-    - Writing - review & editing
-  - name: Vera Gutierrez, C.
-    affiliations:
-    - Institute of Geology, Mining, and Metallurgy, Universidad Nacional Mayor de San Marcos, Lima, Peru
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Ndlovu, T.
-    affiliations:
-    - Marine Research and Development, Oceanic Dynamics Ltd., Cape Town, South Africa
-    roles:
-    - Formal analysis
     - Writing - review & editing
 
   toc:
   - file: index.md
 
   id: isp-micropublication-template
-  title: This is the title of our awesome micropublication
+  title: Characteristics of historical Compound Flash Droughts and Heatwaves in Peru during 1981-2015
   keywords:
-  - keyword1
-  - keyword2
-  - keyword3
-  - keyword4
-  github: https://github.com/impact-scholars/isp-micropublication-template
+  - Compound flash drought and heatwave events
+  - climate variability
+  - Extreme events
+  - Peru
+  #github: https://github.com/impact-scholars/isp-micropublication-template
+  github: https://github.com/Fiorellavj/micropub_template.git
   bibliography:
   - bib.bib
   # downloads:
