@@ -31,14 +31,16 @@ If you're familiar with the tools involved, these few steps are all you need. We
 
 ## File Structure
 
-| File | Purpose |
+| Path | Purpose |
 |------|---------|
-| `environment.yml` | Conda/mamba environment for MyST |
-| `index.md` | Your paper content |
 | `myst.yml` | Metadata: authors, title, keywords, DOI |
-| `bib.bib` | Bibliography in BibTeX format |
-| `figure.png` | Your main figure (max 6 panels) |
-| `thumbnails/thumbnail.png` | Gallery thumbnail image |
+| `environment.yml` | Conda/mamba environment for MyST |
+| `source/index.md` | Paper content (MyST Markdown) |
+| `source/bib.bib` | Bibliography in BibTeX format |
+| `source/figure.png` | Main composite figure |
+| `source/thumbnails/thumbnail.png` | Gallery thumbnail image |
+| `output/` | Built outputs from initial submission (PDF, HTML) |
+| `revision/` | Revision materials (response to reviewers, revised PDF) |
 
 ---
 
