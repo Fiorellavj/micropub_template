@@ -1,0 +1,5 @@
+[submodule "source/figures"]
+	path = source/figures
+	url = git@gin.g-node.org:/Las-Ninas/CFDHW_Peru_figures.git
+	datalad-id = f068763d-aed2-4f56-a1e7-803e9ecb7f1e
+	datalad-url = git@gin.g-node.org:/Las-Ninas/CFDHW_Peru_figures.git
