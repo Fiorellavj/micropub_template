@@ -76,6 +76,12 @@ project:
   github: https://github.com/Fiorellavj/micropub_template.git
   bibliography:
   - source/bib.bib
+  exports:
+  - format: typst
+    id: typst-pdf
+    articles:
+    - file: source/index.md
+      level: 0
   # downloads:
   # - file: supplementary-material.zip
   #   title: Supplementary Material
